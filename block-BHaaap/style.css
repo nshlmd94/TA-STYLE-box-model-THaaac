@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+div
+{
+    margin: 10px;
+	padding: 10px;
+	border: 10px;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#h1-attributes
+{
+    padding: 10px;
+    border: 1px solid red;
+    background-color: #D18C1D;
+    margin: 0;
+}
+
+h1
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#circle
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: red;
+}
+
+#new-paragraph
+{
+    height: 600px;
+    width: 400px;
+    border: 2px dotted;
+    background-color: #D1D631;
+}
+
+p
+{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img
+{
+    border-radius: 25px;
+}
+
+ul
+{
+    height: 25px;
+    border-bottom: 3px dotted blue;
+    background-color: #A1A1A1;
+}
